@@ -1,0 +1,39 @@
+/* Moonvault — style.css. The page is a dark stage for the canvas. */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #07090f;
+  overflow: hidden;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+#game {
+  display: block;
+  margin: 0 auto;
+  background: #0b0e18;
+  cursor: pointer;
+}
+
+#help {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 8px 12px;
+  background: rgba(7, 9, 15, 0.85);
+  color: #9aa5c4;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+  z-index: 10;
+}
+
+#help b {
+  color: #e8ecf7;
+  font-weight: bold;
+}
